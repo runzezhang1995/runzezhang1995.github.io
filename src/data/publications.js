@@ -1,64 +1,5 @@
 import React from "react";
 
-function article_1() {
-	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
-		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
-		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
-		],
-		style: `
-				.article-content {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid red;
-				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
-	};
-}
-
-function article_2() {
-	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
-		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
-		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
-		],
-		body: (
-			<React.Fragment>
-				<h1>Content of article 2</h1>
-			</React.Fragment>
-		),
-	};
-}
 
 
 function DVa(){
@@ -69,12 +10,27 @@ function DVa(){
 		authors: "Haichuan Xu, Mingxuan Yao, Runze Zhang, Mohamed Moustafa, Jeman Park, Brendan Saltaformaggio", 
 		conference: "The 33rd USENIX Security Symposium (Security '24)",
 		time: "August 2024", 
-		address: "Vancouver, BC, Canada",
-		paper_name: ''
+		address: "Philadelphia, PA",
+		link: "https://www.usenix.org/conference/usenixsecurity24/presentation/xu-haichuan",
+		paper_name: "dva_usenix24.pdf"
 	}
 
 }
 
-const myPublications = [DVa];
+function CoCo(){
+	return {
+		title : "Pulling Off The Mask: Forensic Analysis of the Deceptive Creator Wallets Behind Smart Contract Fraud",
+		description: <div></div>,
+		authors: "Mingxuan Yao, Runze Zhang, Haichuan Xu, Shih-Huan Chou, Varun Chowdhary Paturi, Amit Kumar Sikder, Brendan Saltaformaggio",
+		conference :"2024 IEEE Symposium on Security and Privacy (S&P'24)",
+		time: "May 2024",
+		address: "San Francisco, CA",
+		link: "https://ieeexplore.ieee.org/document/10646813",
+		paper_name: "coco_sp24.pdf"
+	}
+}
+
+
+const myPublications = [CoCo, DVa];
 
 export default myPublications;

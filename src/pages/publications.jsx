@@ -56,7 +56,6 @@ const Publications = () => {
 										key={(index + 1).toString()}
 									>
 										<Publication
-											key={(index + 1).toString()}
 											time={article().time}
 											title={article().title}
 											abstract={article().abstract}
