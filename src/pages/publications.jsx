@@ -8,7 +8,7 @@ import  Publication from "../components/publications/publication";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myPublications from "../data/publications";
+import pubs from "../data/publications";
 
 import "./styles/publications.css";
 
@@ -50,7 +50,7 @@ const Publications = () => {
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myPublications.map((article, index) => (
+								{pubs.myPublications.map((article, index) => (
 									<div
 										className="articles-article"
 										key={(index + 1).toString()}

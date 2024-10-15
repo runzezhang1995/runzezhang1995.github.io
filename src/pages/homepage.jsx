@@ -19,7 +19,7 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myPublications from "../data/publications";
+import pubs from "../data/publications";
 
 import "./styles/homepage.css";
 
@@ -171,7 +171,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myPublications.map((article, index) => (
+								{pubs.myRepresentativePublications.map((article, index) => (
 									<div
 										className="homepage-article"
 										key={(index + 1).toString()}

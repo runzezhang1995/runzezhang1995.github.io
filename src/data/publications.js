@@ -30,7 +30,24 @@ function CoCo(){
 	}
 }
 
+function Glean(){
+	return {
+		title: "Hitchhiking Vaccine: Enhancing Botnet Remediation With Remote Code Deployment Reuse",
+		description: <div></div>,
+		authors: "Runze Zhang, Mingxuan Yao, Haichuan Xu, Omar Alrawi, Jeman Park, Brendan Saltaformaggio",
+		conference: "To Appear In: The 32nd Annual Network and Distributed System Security Symposium (NDSS'25)",
+		time: "February 2025",
+		address: "San Diego, CA",
+		link: "https://www.ndss-symposium.org/ndss25/",	
+		paper_name: ""
+	}
+}
 
-const myPublications = [CoCo, DVa];
 
-export default myPublications;
+const myPublications = [Glean, CoCo, DVa];
+const myRepresentativePublications = [Glean, CoCo, DVa];
+const pubs = {};
+pubs.myPublications	= myPublications;
+pubs.myRepresentativePublications = myRepresentativePublications;
+
+export default pubs;
