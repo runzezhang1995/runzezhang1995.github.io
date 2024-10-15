@@ -45,7 +45,7 @@ function Glean(){
 
 
 const myPublications = [Glean, CoCo, DVa];
-const myRepresentativePublications = [Glean, CoCo, DVa];
+const myRepresentativePublications = [Glean, CoCo];
 const pubs = {};
 pubs.myPublications	= myPublications;
 pubs.myRepresentativePublications = myRepresentativePublications;
