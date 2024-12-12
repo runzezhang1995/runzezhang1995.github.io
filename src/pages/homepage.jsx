@@ -163,6 +163,17 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>	
+							{/* <a
+								href={`/PhD_CV_Runze_pub.pdf`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>	 */}
+
 						</div>
 {/* 
 						<div className="homepage-projects">

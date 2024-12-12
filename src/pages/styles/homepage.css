@@ -107,6 +107,14 @@
 	flex-basis: 600px;
 	padding-top: 30px;
 }
+.cv-link {
+	color: darkslateblue;         /* Always blue */
+	font-weight: bold;  /* Bold font */
+	text-decoration: none; /* Optional: Removes underline */
+}
+.cv-link:hover {
+	text-decoration: underline; /* Optional: Adds underline on hover */
+}
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
