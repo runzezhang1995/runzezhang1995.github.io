@@ -13,6 +13,20 @@ const Works = () => {
 				title="Work Experience"
 				body={
 					<div className="works-body">
+						
+						<div className="work">
+							<img
+								src="./meta_logo.png"
+								alt="Meta"
+								className="work-image"
+							/>
+							<div className="work-title">Meta</div>
+							<div className="work-subtitle">
+								Software Engineer Intern 
+							</div>
+							<div className="work-duration">2025 [Upcoming]</div>
+						</div>
+
 						<div className="work">
 							<img
 								src="./gt_logo.png"

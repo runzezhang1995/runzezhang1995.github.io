@@ -35,11 +35,11 @@ function Glean(){
 		title: "Hitchhiking Vaccine: Enhancing Botnet Remediation With Remote Code Deployment Reuse",
 		description: <div></div>,
 		authors: "Runze Zhang, Mingxuan Yao, Haichuan Xu, Omar Alrawi, Jeman Park, Brendan Saltaformaggio",
-		conference: "To Appear In: The 32nd Annual Network and Distributed System Security Symposium (NDSS'25)",
+		conference: "The 32nd Annual Network and Distributed System Security Symposium (NDSS'25)",
 		time: "February 2025",
 		address: "San Diego, CA",
-		link: "https://www.ndss-symposium.org/ndss25/",	
-		paper_name: ""
+		link: "https://www.ndss-symposium.org/ndss-paper/hitchhiking-vaccine-enhancing-botnet-remediation-with-remote-code-deployment-reuse/",	
+		paper_name: "echo_ndss25.pdf"
 	}
 }
 

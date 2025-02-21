@@ -51,7 +51,7 @@ const Experience = () => {
                             <div className="experience-education-school-content">
                                 <p>Ph.D. Candidate</p>
                                 <p> School of Electrical and Computer Engineering</p>
-                                <p> Spring 2020 – Present</p>
+                                <p> Spring 2021 – Present</p>
                             </div>
                         </div>
                         <div className="experience-education-school">
@@ -75,6 +75,17 @@ const Experience = () => {
                             Working Experience
                         </div>
 
+                        
+
+                        <div className="experience-education-school">
+                            Meta Platforms, Inc., Bellevue, WA, USA
+                            <div className="experience-education-school-content">
+                                <p>Upcoming Software Engineer Intern</p>
+                                <p> May 2025 - Aug. 2025</p>
+                            </div>
+                        </div>
+
+
                         <div className="experience-education-school">
                             Microsoft Corporation, Redmond, WA, USA
                             <div className="experience-education-school-content">
@@ -96,6 +107,13 @@ const Experience = () => {
                             Professional Services
                         </div>
 
+                        <div className="experience-education-school">
+                        Artifact Evaluation Committee 
+                            <div className="experience-education-school-content">
+                                <p>USENIX Security Symposium (Security)</p>
+                                <p> 2025</p>
+                            </div>
+                        </div>                    
 
                         <div className="experience-education-school">
                         Student Assistant
@@ -107,11 +125,11 @@ const Experience = () => {
                         </div>
 
                         <div className="experience-education-school">
-                                External Reviewer 
+                                External Conference Paper Reviewer 
                             <div className="experience-education-school-content">
-                            <p>IEEE Symposium on Security and Privacy (S&amp;P) 2021 - 2024</p>
-                            <p>Network and Distributed System Security Symposium (NDSS) 2021 - 2024</p>
-                            <p>USENIX Security Symposium (USENIX) 2021 - 2023</p>
+                            <p>IEEE Symposium on Security and Privacy (S&amp;P) 2021 - 2025</p>
+                            <p>Network and Distributed System Security Symposium (NDSS) 2021 - 2025</p>
+                            <p>USENIX Security Symposium (Security) 2021 - 2023</p>
                             <p>ACM Computer and Communications Security (CCS) 2020</p>
                             <p>European Symposium on Research in Computer Security (ESORICS) 2020</p>
                             <p>Annual Computer Security Applications Conference (ACSAC) 2020, 2021</p>

@@ -22,22 +22,12 @@ const INFO = {
 		description:
 			["I am a 5th year Ph.D. candidate in School of Cybersecurity & Privacy and School of Electrical & Computer Engineering at Georgia Institute of Technology. I work in Cyber Forensics Innovation (CyFI) Lab, advised by Prof. Brendan Saltaformaggio.",
 			"My research leverages program analysis, graph theory, and machine learning to tackle large-scale cyber threats. My work spans a broad spectrum of challenges, including global botnet takedowns, mobile malware forensics, smart contract fraud detection, and click fraud mitigation.", 
-			"I am actively seeking for 2025 Summer Internship opportunities.", <a className="cv-link" href="/PhD_CV_Runze_pub.pdf">Check My Latest CV here! </a>
+			, <a className="cv-link" href="/PhD_CV_Runze_pub.pdf">Check My Latest CV here! </a>
 		]
 	},
-
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+	publications: {	
+		title: "Publications"
 	},
-
-	publications: {
-		title: "Publications",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
-
 	projects: [
 		{
 			title: "Project 1",
