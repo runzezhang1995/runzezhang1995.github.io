@@ -26,7 +26,7 @@ const Publication = (props) => {
 
 
 	let read_paper_button;
-	if(link != '../publications/'){
+	if(link !== '../publications/'){
 		read_paper_button = <Link to={link}>
 							Read Paper{" "}
 							<FontAwesomeIcon
@@ -35,7 +35,7 @@ const Publication = (props) => {
 							/>
 						</Link>
 	} else {
-		read_paper_button = <div></div>
+		read_paper_button = <div>To Appear Soon</div>
 	}
 
 	return (

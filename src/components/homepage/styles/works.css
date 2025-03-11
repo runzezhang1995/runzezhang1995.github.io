@@ -43,3 +43,21 @@
 	text-align: right;
 	color: var(--secondary-color);
 }
+
+.work-duration-line2 {
+	position: absolute;
+	width: 350px;
+	font-size: 12px;
+	padding-top: 42px;
+	text-align: right;
+	color: var(--secondary-color);
+}
+
+.work-subtitle-line2 {
+	position: absolute;
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--secondary-color);
+	padding-top: 42px;
+	padding-left: 50px;
+}

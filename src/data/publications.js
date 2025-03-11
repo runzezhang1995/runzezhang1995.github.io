@@ -43,9 +43,35 @@ function Glean(){
 	}
 }
 
+function CoSeC(){
+	return {
+		title: "Identifying Incoherent Search Sessions: Search Click Fraud Remediation Under Real-World Constraints",
+		description: <div></div>,
+		authors: "Runze Zhang, Ranjita Pai Sridhar, Mingxuan Yao, Zheng Yang, David Oygenblik, Haichuan Xu, Vacha Dave, Cormac Herley, Paul England, Brendan Saltaformaggio",
+		conference: "2025 IEEE Symposium on Security and Privacy (S&P'25)",
+		time: "May 2025",
+		address: "San Francisco, CA",
+		link: "../publications/",	
+		paper_name: ""
+	}
+}
 
-const myPublications = [Glean, CoCo, DVa];
-const myRepresentativePublications = [Glean, CoCo];
+function COINDEF(){
+	return {
+		title: "COINDEF: A Comprehensive Code Injection Defense for the Electron Framework",
+		description: <div></div>,
+		authors: "Zheng Yang, Simon Chung, Jizhou Chen, Runze Zhang, Brendan Saltaformaggio, Wenke Lee",
+		conference: "2025 IEEE Symposium on Security and Privacy (S&P'25)",
+		time: "May 2025",
+		address: "San Francisco, CA",
+		link: "../publications/",	
+		paper_name: ""
+	}
+}
+
+
+const myPublications = [Glean, CoSeC , COINDEF, CoCo, DVa];
+const myRepresentativePublications = [CoSeC, Glean];
 const pubs = {};
 pubs.myPublications	= myPublications;
 pubs.myRepresentativePublications = myRepresentativePublications;

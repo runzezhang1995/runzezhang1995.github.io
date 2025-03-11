@@ -5,10 +5,11 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faGithub,
-	faStackOverflow,
 	faInstagram,
-	faLinkedin
+	faLinkedin,
+	faGoogle
 } from "@fortawesome/free-brands-svg-icons";
+
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -133,16 +134,8 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							{/* <a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a> */}
+							
+							
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -163,6 +156,17 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>	
+							<a
+								href={INFO.socials.googleScholar}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faGoogle}
+									className="homepage-social-icon"
+								/>
+								{/* <b>Google Scholar</b> */}
+							</a>
 							{/* <a
 								href={`/PhD_CV_Runze_pub.pdf`}
 								target="_blank"

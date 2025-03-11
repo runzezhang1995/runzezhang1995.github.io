@@ -14,6 +14,7 @@ const INFO = {
 		instagram: "https://www.instagram.com/runze43/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+		googleScholar: "https://scholar.google.com/citations?user=jKlJTxkAAAAJ&hl=en&oi=ao"
 	},
 
 	homepage: {
