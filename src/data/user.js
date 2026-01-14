@@ -21,7 +21,7 @@ const INFO = {
 		title: "Runze Zhang ",
 		subtitle: "Ph.D. Candidate @ Georgia Tech",
 		description:
-			["I am a 5th year Ph.D. candidate in School of Cybersecurity & Privacy and School of Electrical & Computer Engineering at Georgia Institute of Technology. I work in Cyber Forensics Innovation (CyFI) Lab, advised by Prof. Brendan Saltaformaggio.",
+			["I am a final year Ph.D. candidate in School of Cybersecurity & Privacy and School of Electrical & Computer Engineering at Georgia Institute of Technology. I work in Cyber Forensics Innovation (CyFI) Lab, advised by Prof. Brendan Saltaformaggio.",
 			"My research leverages program analysis, graph theory, and machine learning to tackle large-scale cyber threats. My work spans a broad spectrum of challenges, including global botnet takedowns, mobile malware forensics, smart contract fraud detection, and click fraud mitigation.", 
 			, <a className="cv-link" href="/PhD_CV_Runze_pub.pdf">Check My Latest CV here! </a>
 		]

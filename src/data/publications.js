@@ -52,7 +52,7 @@ function CoSeC(){
 		time: "May 2025",
 		address: "San Francisco, CA",
 		link: "../publications/",	
-		paper_name: ""
+		paper_name: "cosec_sp25.pdf"
 	}
 }
 
@@ -65,12 +65,54 @@ function COINDEF(){
 		time: "May 2025",
 		address: "San Francisco, CA",
 		link: "../publications/",	
+		paper_name: "coindef_sp25.pdf"
+	}
+}
+
+function Sombra(){
+	return {
+		title: "Lock the Door But Keep the Window Open: Extracting App-Protected Accessibility Information from Browser-Rendered Websites",
+		description: <div></div>,
+		authors: " Haichuan Xu, Runze Zhang, Mingxuan Yao,David Oygenblik, Yizhi Huang, Jeman Park, Brendan Saltaformaggio",
+		conference: "The 32nd ACM Conference on Computer and Communications Security (CCS'25)",
+		time: "October 2025",
+		address: "Taipei, Taiwan",
+		link: "../publications/",	
+		paper_name: "sombra_ccs25.pdf"
+	}
+}
+
+function Mai(){
+	return {
+		title: "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse",
+		description: <div></div>,
+		//David Oygenblik (Georgia Institute of Technology) <davido@gatech.edu> Dinko Dermendzhiev (Georgia Institute of Technology) <dermendzhiev@gatech.edu> Filippos Sofias (Georgia Institute of Technology) <fsofias3@gatech.edu> Mingxuan Yao (Georgia Institute of Technology) <mingxuanyao@gatech.edu> Haichuan Xu (Georgia Institute of Technology) <haichuanxu@gatech.edu> Runze Zhang (Georgia Institute of Technology) <runze.zhang@gatech.edu> Jeman Park (Kyung Hee University) <jeman@khu.ac.kr> Amit Kumar Sikder (Iowa State University) <aksikder@iastate.edu> Brendan Saltaformaggio (Georgia Institute of Technology) <brendan@ece.gatech.edu>
+		authors: "David Oygenblik, Dinko Dermendzhiev, Filippos Sofias, Mingxuan Yao, Haichuan Xu, Runze Zhang, Jeman Park, Amit Kumar Sikder, Brendan Saltaformaggio",
+		conference: "The 33rd Annual Network and Distributed System Security Symposium (NDSS'26)",
+		time: "February 2026",
+		address: "San Diego, CA",
+		link: "../publications/",	
+		paper_name: ""
+	}
+}
+
+function Fira(){
+	return {
+		title: "FIRA: Enabling Automatic Forensic Investigation of Unmanned Aerial Vehicles",
+		descripion: <div></div>,
+		authors: "Yizhi Huang, David Oygenblik, Runze Zhang, Mingxuan Yao, Muhammad Ibrahim, Burak Sahin, Haichuan Xu, Saman Zonouz, Brendan Saltaformaggio",
+		conference: "The 35th USENIX Security Symposium (Security '26)",
+		time: "August 2026",
+		address: "Baltimore, MD",
+		link: "../publications/",	
 		paper_name: ""
 	}
 }
 
 
-const myPublications = [Glean, CoSeC , COINDEF, CoCo, DVa];
+
+
+const myPublications = [Glean, CoSeC , Sombra, CoCo, DVa, COINDEF];
 const myRepresentativePublications = [CoSeC, Glean];
 const pubs = {};
 pubs.myPublications	= myPublications;

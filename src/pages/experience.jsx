@@ -80,7 +80,7 @@ const Experience = () => {
                         <div className="experience-education-school">
                             Meta Platforms, Inc., Bellevue, WA, USA
                             <div className="experience-education-school-content">
-                                <p>Upcoming Software Engineer Intern</p>
+                                <p>Software Engineer Intern</p>
                                 <p> May 2025 - Aug. 2025</p>
                             </div>
                         </div>
@@ -110,8 +110,11 @@ const Experience = () => {
                         <div className="experience-education-school">
                         Artifact Evaluation Committee 
                             <div className="experience-education-school-content">
-                                <p>USENIX Security Symposium (Security)</p>
-                                <p> 2025</p>
+                                <p>Network and Distributed System Security Symposium (NDSS) 2026</p>
+                                <p>USENIX Security Symposium (Security) 2026</p>
+                                <p>ACM Computer and Communications Security (CCS) 2026</p>
+                                
+
                             </div>
                         </div>                    
 
@@ -127,7 +130,7 @@ const Experience = () => {
                         <div className="experience-education-school">
                                 External Conference Paper Reviewer 
                             <div className="experience-education-school-content">
-                            <p>IEEE Symposium on Security and Privacy (S&amp;P) 2021 - 2025</p>
+                            <p>IEEE Symposium on Security and Privacy (S&amp;P) 2021 - 2026</p>
                             <p>Network and Distributed System Security Symposium (NDSS) 2021 - 2025</p>
                             <p>USENIX Security Symposium (Security) 2021 - 2023</p>
                             <p>ACM Computer and Communications Security (CCS) 2020</p>
