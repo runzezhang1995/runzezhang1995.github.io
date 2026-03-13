@@ -82,7 +82,7 @@ function Sombra(){
 	}
 }
 
-function Mai(){
+function Zen(){
 	return {
 		title: "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse",
 		description: <div></div>,
@@ -92,7 +92,7 @@ function Mai(){
 		time: "February 2026",
 		address: "San Diego, CA",
 		link: "../publications/",	
-		paper_name: ""
+		paper_name: "zen_ndss26.pdf"
 	}
 }
 
@@ -109,10 +109,23 @@ function Fira(){
 	}
 }
 
+function Relic(){
+	return {
+		title:"Recovering and Rehosting Mobile Local LLM Conversations and Contexts via Memory Forensics",
+		description: <div></div>,
+		authors: "Haichuan Xu, David Oygenblik, Runze Zhang, Mingxuan Yao, Muhammad Ibrahim, Brendan Saltaformaggio",
+		conference: "2026 IEEE Symposium on Security and Privacy (S&P'26)",
+		time: "May 2026",
+		address: "San Francisco, CA",
+		link: "../publications/",	
+		paper_name: ""
+	}
+}
 
 
 
-const myPublications = [Glean, CoSeC , Sombra, CoCo, DVa, COINDEF];
+
+const myPublications = [Glean, CoSeC , Sombra, CoCo, DVa, COINDEF, Zen];
 const myRepresentativePublications = [CoSeC, Glean];
 const pubs = {};
 pubs.myPublications	= myPublications;
